@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\bin\Debug\WPF03D.exe.config
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\bin\Debug\WPF03D.exe
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\bin\Debug\WPF03D.pdb
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D.g.resources
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D.exe
+C:\Users\Edgard Frank\source\repos\WPF03D\WPF03D\obj\Debug\WPF03D.pdb

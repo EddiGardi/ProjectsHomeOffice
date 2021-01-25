@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\bin\Debug\GridBehandlung.exe.config
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\bin\Debug\GridBehandlung.exe
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\bin\Debug\GridBehandlung.pdb
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung.g.resources
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung.exe
+C:\Users\Edgard Frank\source\repos\GridBehandlung\GridBehandlung\obj\Debug\GridBehandlung.pdb

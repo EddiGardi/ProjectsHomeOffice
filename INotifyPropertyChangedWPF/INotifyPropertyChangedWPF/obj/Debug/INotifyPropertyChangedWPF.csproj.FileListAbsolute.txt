@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\bin\Debug\INotifyPropertyChangedWPF.exe.config
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\bin\Debug\INotifyPropertyChangedWPF.exe
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\bin\Debug\INotifyPropertyChangedWPF.pdb
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF.g.resources
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF.exe
+C:\Users\Edgard Frank\source\repos\INotifyPropertyChangedWPF\INotifyPropertyChangedWPF\obj\Debug\INotifyPropertyChangedWPF.pdb

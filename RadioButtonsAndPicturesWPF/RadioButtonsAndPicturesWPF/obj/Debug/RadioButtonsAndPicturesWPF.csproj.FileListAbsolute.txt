@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\bin\Debug\RadioButtonsAndPicturesWPF.exe.config
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\bin\Debug\RadioButtonsAndPicturesWPF.exe
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\bin\Debug\RadioButtonsAndPicturesWPF.pdb
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF.g.resources
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF.exe
+C:\Users\Edgard Frank\source\repos\RadioButtonsAndPicturesWPF\RadioButtonsAndPicturesWPF\obj\Debug\RadioButtonsAndPicturesWPF.pdb

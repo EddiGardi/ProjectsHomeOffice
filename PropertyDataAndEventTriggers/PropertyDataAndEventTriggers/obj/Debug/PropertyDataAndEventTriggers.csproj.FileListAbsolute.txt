@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\bin\Debug\PropertyDataAndEventTriggers.exe.config
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\bin\Debug\PropertyDataAndEventTriggers.exe
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\bin\Debug\PropertyDataAndEventTriggers.pdb
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers.g.resources
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers.exe
+C:\Users\Edgard Frank\source\repos\PropertyDataAndEventTriggers\PropertyDataAndEventTriggers\obj\Debug\PropertyDataAndEventTriggers.pdb

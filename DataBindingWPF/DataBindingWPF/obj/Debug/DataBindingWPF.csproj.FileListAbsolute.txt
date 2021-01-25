@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\bin\Debug\DataBindingWPF.exe.config
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\bin\Debug\DataBindingWPF.exe
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\bin\Debug\DataBindingWPF.pdb
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF.g.resources
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF.exe
+C:\Users\Edgard Frank\source\repos\DataBindingWPF\DataBindingWPF\obj\Debug\DataBindingWPF.pdb

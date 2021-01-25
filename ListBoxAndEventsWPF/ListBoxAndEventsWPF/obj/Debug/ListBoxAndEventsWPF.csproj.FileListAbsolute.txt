@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\bin\Debug\ListBoxAndEventsWPF.exe.config
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\bin\Debug\ListBoxAndEventsWPF.exe
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\bin\Debug\ListBoxAndEventsWPF.pdb
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF.g.resources
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF.exe
+C:\Users\Edgard Frank\source\repos\ListBoxAndEventsWPF\ListBoxAndEventsWPF\obj\Debug\ListBoxAndEventsWPF.pdb

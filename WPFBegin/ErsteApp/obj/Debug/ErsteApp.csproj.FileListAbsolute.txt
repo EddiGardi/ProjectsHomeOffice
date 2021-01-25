@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\bin\Debug\ErsteApp.exe.config
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\bin\Debug\ErsteApp.exe
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\bin\Debug\ErsteApp.pdb
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp.g.resources
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp.exe
+C:\Users\Edgard Frank\source\repos\WPFBegin\ErsteApp\obj\Debug\ErsteApp.pdb

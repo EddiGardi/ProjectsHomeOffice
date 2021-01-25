@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\bin\Debug\ComboBoxWPF.exe.config
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\bin\Debug\ComboBoxWPF.exe
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\bin\Debug\ComboBoxWPF.pdb
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF.g.resources
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF.exe
+C:\Users\Edgard Frank\source\repos\ComboBoxWPF\ComboBoxWPF\obj\Debug\ComboBoxWPF.pdb

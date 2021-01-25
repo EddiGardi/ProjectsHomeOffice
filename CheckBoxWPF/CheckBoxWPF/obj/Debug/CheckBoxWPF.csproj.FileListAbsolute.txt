@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\bin\Debug\CheckBoxWPF.exe.config
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\bin\Debug\CheckBoxWPF.exe
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\bin\Debug\CheckBoxWPF.pdb
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF.g.resources
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF.exe
+C:\Users\Edgard Frank\source\repos\CheckBoxWPF\CheckBoxWPF\obj\Debug\CheckBoxWPF.pdb

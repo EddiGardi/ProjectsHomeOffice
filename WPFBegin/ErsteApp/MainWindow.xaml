@@ -1,0 +1,30 @@
+﻿<Window x:Class="ErsteApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ErsteApp"
+        mc:Ignorable="d"
+        Title="Erste WPF Fenster" Height="450" Width="800">
+    <!-- Extensible Application Markup Language -->
+    <!--
+    <Grid>
+        <Button HorizontalAlignment="Right" Margin="15" VerticalAlignment ="Bottom" Height="50" Width="300" FontSize="32">Das ist ein Button</Button>
+        <Button>
+            <Button.FontSize>32</Button.FontSize>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="White">Multi</TextBlock>
+                    <TextBlock Foreground="Blue">Color</TextBlock>
+                    <TextBlock Foreground="Red">Button</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+            <Button.Height>50</Button.Height>
+            <Button.Width>250</Button.Width>
+            <Button.Margin>15</Button.Margin>
+            <Button.HorizontalAlignment>right</Button.HorizontalAlignment>
+        </Button>
+        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="Hallo Edgard" VerticalAlignment="center" TextChanged="TextBox_TextChanged"/>
+    </Grid>
+    -->
+</Window>
