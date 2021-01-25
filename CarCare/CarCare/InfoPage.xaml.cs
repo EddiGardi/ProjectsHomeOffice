@@ -37,8 +37,8 @@ namespace CarCare
             {
                 bearbeiten.IsEnabled = false;
                 loeschen.IsEnabled = false;
-                group.Text = "Motorrraum / Vorderrreifen / Hinterreifen / Innenraum";
-                partname.Text = "Teilenamen eingeben";
+                group.Text = Globals.tempService.Group;
+                partname.Text = Globals.tempService.PartName;
                 changelast.Text = "Als MM/DD/YY eingeben";
                 odo.Text = "";
                 infos.Text = "";
@@ -53,15 +53,24 @@ namespace CarCare
             Globals.service[Globals.i].ChangingDate = Globals.service[Globals.i].ChangedLast.AddYears(2);
             Globals.service[Globals.i].Odometer = Convert.ToInt32(odo.Text);
             Globals.service[Globals.i].MoreInfos = infos.Text;
+            MessageBox.Show("Erfolgreich bearbeitet.");
         }
+
         private void Hinzufuegen_Click(object sender, RoutedEventArgs e)
         {
-
+            var service = new Service(group.Text, partname.Text, DateTime.Parse(changelast.Text), Convert.ToInt32(odo.Text), infos.Text);
+            if (Globals.service == null) Globals.service = new List<Service> { service };
+            else Globals.service.Add(service);
+            MessageBox.Show("Erfolgreich hinzugefügt.");
         }
+
         private void Loeschen_Click(object sender, RoutedEventArgs e)
         {
-
+            Globals.service.Remove(Globals.service[Globals.i]);
+            if (Globals.service.Count == 0) Globals.service = null;
+            MessageBox.Show("Erfolgreich gelöscht.");
         }
+
         private void Schließen_Click(object sender, RoutedEventArgs e)
         {
             if (Globals.uebergabe == "h") this.NavigationService.Navigate(new Hinterreifen());

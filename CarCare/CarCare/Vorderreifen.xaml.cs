@@ -23,6 +23,87 @@ namespace CarCare
         public Vorderreifen()
         {
             InitializeComponent();
+            Globals.uebergabe = "v";
+            Globals.i = 0;
+            Globals.vorhanden = false;
+        }
+
+        private void BrakeDisc_Click(object sender, RoutedEventArgs e)
+        {
+            if (Globals.service != null)
+            {
+                while (Globals.service[Globals.i].Group != "Vorderreifen" && Globals.service[Globals.i].PartName != "Bremsscheibe" && Globals.i <= Globals.service.Count)
+                {
+                    Globals.i++;
+                }
+                if (Globals.service[Globals.i].Group != "Vorderreifen" && Globals.service[Globals.i].PartName != "Bremsscheibe")
+                {
+                    MessageBox.Show("Es ist noch nichts für die Bremsscheibe Vorne angelegt.");
+                }
+                else
+                {
+                    Globals.vorhanden = true;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Es ist noch nichts angelegt.");
+            }
+            Globals.tempService.Group = "Vorderreifen";
+            Globals.tempService.PartName = "Bremsscheibe";
+            this.NavigationService.Navigate(new InfoPage());
+        }
+
+        private void BrakePad_Click(object sender, RoutedEventArgs e)
+        {
+            if (Globals.service != null)
+            {
+                while (Globals.service[Globals.i].Group != "Vorderreifen" && Globals.service[Globals.i].PartName != "Bremsbelag" && Globals.i <= Globals.service.Count)
+                {
+                    Globals.i++;
+                }
+                if (Globals.service[Globals.i].Group != "Vorderreifen" && Globals.service[Globals.i].PartName != "Bremsbelag")
+                {
+                    MessageBox.Show("Es ist noch nichts für die Bremsbelag Vorne angelegt.");
+                }
+                else
+                {
+                    Globals.vorhanden = true;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Es ist noch nichts angelegt.");
+            }
+            Globals.tempService.Group = "Vorderreifen";
+            Globals.tempService.PartName = "Bremsbeläge";
+            this.NavigationService.Navigate(new InfoPage());
+        }
+
+        private void Tire_Click(object sender, RoutedEventArgs e)
+        {
+            if (Globals.service != null)
+            {
+                while (Globals.service[Globals.i].Group != "Vorderreifen" && Globals.service[Globals.i].PartName != "Reifen" && Globals.i <= Globals.service.Count)
+                {
+                    Globals.i++;
+                }
+                if (Globals.service[Globals.i].Group != "Vorderreifen" && Globals.service[Globals.i].PartName != "Reifen")
+                {
+                    MessageBox.Show("Es ist noch nichts für die Reifen vorne angelegt.");
+                }
+                else
+                {
+                    Globals.vorhanden = true;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Es ist noch nichts angelegt.");
+            }
+            Globals.tempService.Group = "Vorderreifen";
+            Globals.tempService.PartName = "Reifen";
+            this.NavigationService.Navigate(new InfoPage());
         }
     }
 }

@@ -23,6 +23,7 @@ namespace CarCare
         public Überblick()
         {
             InitializeComponent();
+            dg_services.ItemsSource = Globals.service;
         }
     }
 }

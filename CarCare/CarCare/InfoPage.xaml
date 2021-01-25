@@ -8,20 +8,20 @@
       d:DesignHeight="400" d:DesignWidth="700"
       Title="InfoPage">
 
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Background="White">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Width="300">
         <Label>Fahrzeuggruppe</Label>
-        <TextBox Name="group"></TextBox>
+        <TextBox Name="group" IsReadOnly="True" Margin="5,0"></TextBox>
         <Label>Teilename</Label>
-        <TextBox Name="partname"></TextBox>
+        <TextBox Name="partname" IsReadOnly="True" Margin="5,0"></TextBox>
         <Label>Austausch in</Label>
-        <TextBox Name ="changein" IsReadOnly="True"></TextBox>
+        <TextBox Name ="changein" IsReadOnly="True" Margin="5,0"></TextBox>
         <Label>Zuletzt ausgetauscht in MM/DD/YY</Label>
-        <TextBox Name="changelast"></TextBox>
+        <TextBox Name="changelast" Margin="5,0"/>
         <Label>Kilometerstand</Label>
-        <TextBox Name="odo"></TextBox>
+        <TextBox Name="odo" Margin="5,0"/>
         <Label>Weitere Infos</Label>
-        <TextBox Name="infos"></TextBox>
-        <Grid Margin="0,10,0,0">
+        <TextBox Name="infos" Margin="5,0"/>
+        <Grid Margin="0,10,0,5">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="30"/>
@@ -30,18 +30,42 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Grid>
-                <Button Name="bearbeiten" Click="Bearbeiten_Click">Bearbeiten</Button>
+            <Grid Margin="5,0,2.5,2.5">
+                <Button Name="bearbeiten" Click="Bearbeiten_Click" Content="Bearbeiten">
+                    <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                    </Button.Resources>
+                </Button>
             </Grid>
-            <Grid Grid.Row="1">
-                <Button Click="Schließen_Click">Schließen</Button>
+            <Grid Grid.Row="1" Margin="5,2.5,2.5,0">
+                <Button Click="Schließen_Click" Content="Schließen">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
             </Grid>
-            <Grid Name="hinzufuegen" Grid.Row="1" Grid.Column="1">
-                <Button Click="Hinzufuegen_Click">Hinzufügen</Button>
-            </Grid>
-            <Grid Name="loeschen" Grid.Column="1">
-                <Button Click="Loeschen_Click">Löschen</Button>
-            </Grid>
-        </Grid>    
+            <Grid Name="loeschen" Grid.Column="1" Margin="2.5,0,5,2.5">
+                    <Button Click="Loeschen_Click" Content="Löschen">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="3"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+                <Grid Name="hinzufuegen" Grid.Row="1" Grid.Column="1" Margin="2.5,2.5,5,0">
+                    <Button Click="Hinzufuegen_Click" Content="Hinzufügen">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="3"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+            </Grid>    
     </StackPanel>
 </Page>

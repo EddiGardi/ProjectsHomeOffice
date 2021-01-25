@@ -10,11 +10,15 @@
         
     </Window.Resources>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
             <ColumnDefinition Width="700" />
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0" Margin="5">
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="5">
             <Button Content="Hauptansicht" Margin="0,0,0,5" Click="MainView_Loaded">
                 <Button.Resources>
                     <Style TargetType="Border">
@@ -58,8 +62,17 @@
                 </Button.Resources>
             </Button>
         </StackPanel>
-        <Grid Grid.Column="1">
+        <Grid Grid.RowSpan="2" Grid.Column="1">
             <Frame Name="frame" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="Auto" Loaded="MainView_Loaded" NavigationUIVisibility="Hidden"/>
         </Grid>
+        <StackPanel Grid.Row="1">
+            <Button Margin="5" Content="Save" Click="Save_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>

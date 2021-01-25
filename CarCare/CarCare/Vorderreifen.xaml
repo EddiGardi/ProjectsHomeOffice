@@ -12,5 +12,27 @@
         <Grid.Background>
             <ImageBrush ImageSource="C:\Users\Edgard Frank\source\repos\CarCare\Bilder\minicoopersr56_side_frontwheel.jpg" Stretch="Uniform"/>
         </Grid.Background>
+        <Button Content="Reifen" Height="30" Width="75" Margin="304,344,321,26" Click="Tire_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Brems&#10;scheibe" Height="50" Width="50" Margin="362,127,288,223" Click="BrakeDisc_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Brems&#10;beläge"  Height="50" Width="50" Margin="258,196,392,154" Click="BrakePad_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Page>
+

@@ -22,6 +22,7 @@ public static class Globals
     public static bool vorhanden = false;
     public static string uebergabe = "";
     public static List<Service> service = JsonConvert.DeserializeObject<List<Service>>(File.ReadAllText(@"C:\Users\Edgard Frank\source\repos\CarCare\Datenbank\Service.json"));
+    public static Service tempService = new Service ("","" , DateTime.Parse("01/01/2000"), 0, "");
 }
 
 
@@ -35,7 +36,6 @@ namespace CarCare
 
         public MainWindow()
         {
-            
             InitializeComponent();
             Loaded += MainView_Loaded;
         }
@@ -49,21 +49,37 @@ namespace CarCare
         {
             frame.NavigationService.Navigate(new Motorraum());
         }
+
         private void FrontWheel_Loaded(object sender, RoutedEventArgs e)
         {
             frame.NavigationService.Navigate(new Vorderreifen());
         }
+
         private void RearWheel_Loaded(object sender, RoutedEventArgs e)
         {
             frame.NavigationService.Navigate(new Hinterreifen());
         }
+
         private void Interior_Loaded(object sender, RoutedEventArgs e)
         {
             frame.NavigationService.Navigate(new Innenraum());
         }
+
         private void Overview_Loaded(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new Motorraum());
+            frame.NavigationService.Navigate(new Überblick());
+        }
+
+        private void Save_Click (object sender, RoutedEventArgs e)
+        {
+            File.Delete(@"C:\Users\Edgard Frank\source\repos\CarCare\Datenbank\Service.json");
+
+            using (StreamWriter file = File.CreateText(@"C:\Users\Edgard Frank\source\repos\CarCare\Datenbank\Service.json"))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                serializer.Serialize(file, Globals.service);
+            }
+            MessageBox.Show("Datei gespeichert.");
         }
     }
 }

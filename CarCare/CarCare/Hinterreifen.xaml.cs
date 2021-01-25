@@ -49,6 +49,8 @@ namespace CarCare
             {
                 MessageBox.Show("Es ist noch nichts angelegt.");
             }
+            Globals.tempService.Group = "Hinterreifen";
+            Globals.tempService.PartName = "Bremsscheibe";
             this.NavigationService.Navigate(new InfoPage());
         }
 
@@ -73,6 +75,8 @@ namespace CarCare
             {
                 MessageBox.Show("Es ist noch nichts angelegt.");
             }
+            Globals.tempService.Group = "Hinterreifen";
+            Globals.tempService.PartName = "Bremsbeläge";
             this.NavigationService.Navigate(new InfoPage());
         }
 
@@ -97,6 +101,8 @@ namespace CarCare
             {
                 MessageBox.Show("Es ist noch nichts angelegt.");
             }
+            Globals.tempService.Group = "Hinterreifen";
+            Globals.tempService.PartName = "Reifen";
             this.NavigationService.Navigate(new InfoPage());
         }
     }
