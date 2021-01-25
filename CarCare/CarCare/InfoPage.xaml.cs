@@ -73,9 +73,9 @@ namespace CarCare
 
         private void Schließen_Click(object sender, RoutedEventArgs e)
         {
-            if (Globals.uebergabe == "h") this.NavigationService.Navigate(new Hinterreifen());
-            else if (Globals.uebergabe == "v") this.NavigationService.Navigate(new Vorderreifen());
-            else if (Globals.uebergabe == "i") this.NavigationService.Navigate(new Innenraum());
+            if (Globals.uebergabe == "Hinterreifen") this.NavigationService.Navigate(new Hinterreifen());
+            else if (Globals.uebergabe == "Vorderreifen") this.NavigationService.Navigate(new Vorderreifen());
+            else if (Globals.uebergabe == "Innenraum") this.NavigationService.Navigate(new Innenraum());
             else this.NavigationService.Navigate(new Motorraum());
         }
     }

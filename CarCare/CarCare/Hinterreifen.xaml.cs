@@ -23,87 +23,36 @@ namespace CarCare
         public Hinterreifen()
         {
             InitializeComponent();
-            Globals.uebergabe = "h";
-            Globals.i = 0;
-            Globals.vorhanden = false;
+            Globals.uebergabe = "Hinterreifen";
         }
 
         private void BrakeDisc_Click(object sender, RoutedEventArgs e)
         {
-            if (Globals.service != null)
-            {
-                while (Globals.service[Globals.i].Group != "Hinterreifen" && Globals.service[Globals.i].PartName != "Bremsscheibe" && Globals.i <= Globals.service.Count)
-                {
-                    Globals.i++;
-                }
-                if (Globals.service[Globals.i].Group != "Hinterreifen" && Globals.service[Globals.i].PartName != "Bremsscheibe")
-                {
-                    MessageBox.Show("Es ist noch nichts für die Bremsscheibe Hinten angelegt.");
-                }
-                else
-                {
-                    Globals.vorhanden = true;
-                }
-            }
-            else
-            {
-                MessageBox.Show("Es ist noch nichts angelegt.");
-            }
-            Globals.tempService.Group = "Hinterreifen";
+            Globals.CheckExisting (Globals.uebergabe, "Bremsscheibe");
+            Globals.tempService.Group = Globals.uebergabe;
             Globals.tempService.PartName = "Bremsscheibe";
             this.NavigationService.Navigate(new InfoPage());
         }
 
         private void BrakePad_Click(object sender, RoutedEventArgs e)
         {
-            if (Globals.service != null)
-            {
-                while (Globals.service[Globals.i].Group != "Hinterreifen" && Globals.service[Globals.i].PartName != "Bremsbelag" && Globals.i <= Globals.service.Count)
-                {
-                    Globals.i++;
-                }
-                if (Globals.service[Globals.i].Group != "Hinterreifen" && Globals.service[Globals.i].PartName != "Bremsbelag")
-                {
-                    MessageBox.Show("Es ist noch nichts für die Bremsbelag Hinten angelegt.");
-                }
-                else
-                {
-                    Globals.vorhanden = true;
-                }
-            }
-            else
-            {
-                MessageBox.Show("Es ist noch nichts angelegt.");
-            }
-            Globals.tempService.Group = "Hinterreifen";
+            Globals.CheckExisting(Globals.uebergabe, "Bremsbelag");
+            Globals.tempService.Group = Globals.uebergabe;
             Globals.tempService.PartName = "Bremsbeläge";
             this.NavigationService.Navigate(new InfoPage());
         }
 
         private void Tire_Click(object sender, RoutedEventArgs e)
         {
-            if (Globals.service != null)
-            {
-                while (Globals.service[Globals.i].Group != "Hinterreifen" && Globals.service[Globals.i].PartName != "Reifen" && Globals.i <= Globals.service.Count)
-                {
-                    Globals.i++;
-                }
-                if (Globals.service[Globals.i].Group != "Hinterreifen" && Globals.service[Globals.i].PartName != "Reifen")
-                {
-                    MessageBox.Show("Es ist noch nichts für die Reifen Hinten angelegt.");
-                }
-                else
-                {
-                    Globals.vorhanden = true;
-                }
-            }
-            else
-            {
-                MessageBox.Show("Es ist noch nichts angelegt.");
-            }
-            Globals.tempService.Group = "Hinterreifen";
+            Globals.CheckExisting(Globals.uebergabe, "Reifen");
+            Globals.tempService.Group = Globals.uebergabe;
             Globals.tempService.PartName = "Reifen";
             this.NavigationService.Navigate(new InfoPage());
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Haupt());
         }
     }
 }

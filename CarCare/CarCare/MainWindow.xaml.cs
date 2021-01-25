@@ -16,14 +16,7 @@ using Newtonsoft.Json;
 using System.IO;
 
 
-public static class Globals
-{
-    public static int i = 0;
-    public static bool vorhanden = false;
-    public static string uebergabe = "";
-    public static List<Service> service = JsonConvert.DeserializeObject<List<Service>>(File.ReadAllText(@"C:\Users\Edgard Frank\source\repos\CarCare\Datenbank\Service.json"));
-    public static Service tempService = new Service ("","" , DateTime.Parse("01/01/2000"), 0, "");
-}
+
 
 
 namespace CarCare

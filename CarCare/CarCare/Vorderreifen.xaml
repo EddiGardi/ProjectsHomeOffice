@@ -33,6 +33,11 @@
                 </Style>
             </Button.Resources>
         </Button>
+        <Button Height="50" Width="50" Margin="50,20,600,330" Click="Back_Click" Background="Transparent" BorderBrush="Transparent">
+            <Button.Content>
+                <Image Source="C:\Users\Edgard Frank\source\repos\CarCare\Bilder\back.png"/>
+            </Button.Content>
+        </Button>
     </Grid>
 </Page>
 
