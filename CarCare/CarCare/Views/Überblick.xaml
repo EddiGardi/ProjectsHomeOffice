@@ -1,0 +1,21 @@
+﻿<Page x:Class="CarCare.Views.Überblick"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CarCare"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="700"
+      Title="Überblick">
+
+    <DataGrid Name="dg_services" AutoGenerateColumns="false" ColumnWidth="*">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Teilegruppe" Binding="{Binding Group}"/>
+            <DataGridTextColumn Header="Serviceelement" Binding="{Binding PartName}"/>
+            <DataGridTextColumn Header="Tauschen am" Binding="{Binding ChangingDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+            <DataGridTextColumn Header="Zuletzt getauscht" Binding="{Binding ChangedLast, StringFormat={}{0:dd/MM/yyyy}}"/>
+            <DataGridTextColumn Header="Kilometerstand" Binding="{Binding Odometer}"/>
+            <DataGridTextColumn Header="Informationen" Binding="{Binding MoreInfos}"/>
+        </DataGrid.Columns>
+    </DataGrid>
+</Page>

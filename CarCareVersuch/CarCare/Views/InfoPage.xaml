@@ -1,0 +1,87 @@
+﻿<Page x:Class="CarCare.Views.InfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CarCare"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="700"
+      Title="InfoPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Width="300">
+        <Label>Fahrzeuggruppe</Label>
+        <TextBox Name="group" IsReadOnly="True" Margin="5,0"></TextBox>
+        <Label>Teilename</Label>
+        <TextBox Name="partname" IsReadOnly="True" Margin="5,0"></TextBox>
+        <Label>Austausch in</Label>
+            <TextBox Name ="changein" IsReadOnly="True" Margin="5,0"></TextBox>
+            <Label>Zuletzt ausgetauscht</Label>
+            <DatePicker Name="changelast" Margin="5,0"/>
+            <Label>Kilometerstand</Label>
+        <TextBox Name="odo" Margin="5,0"/>
+        <Label>Weitere Infos</Label>
+        <TextBox Name="infos" Margin="5,0"/>
+        <Grid Margin="0,10,0,5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid Margin="5,0,2.5,2.5">
+                <Button Name="bearbeiten" Click="Bearbeiten_Click" Content="Bearbeiten">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+            <Grid Grid.Row="1" Margin="5,2.5,2.5,0">
+                <Button Click="Schließen_Click" Content="Schließen">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+            <Grid Name="loeschen" Grid.Column="1" Margin="2.5,0,5,2.5">
+                <Button Click="Loeschen_Click" Content="Löschen">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+            <Grid Name="hinzufuegen" Grid.Row="1" Grid.Column="1" Margin="2.5,2.5,5,0">
+                <Button Click="Hinzufuegen_Click" Content="Hinzufügen">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+        </Grid>
+
+
+        </StackPanel>
+        <DataGrid Grid.Column="1" AutoGenerateColumns="false" Name="dg_serviceList" SelectedCellsChanged="Dg_serviceList_SelectedCellsChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Tauschen am" Binding="{Binding ChangingDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                <DataGridTextColumn Header="Zuletzt getauscht" Binding="{Binding ChangedLast, StringFormat={}{0:dd/MM/yyyy}}"/>
+                <DataGridTextColumn Header="Kilometerstand" Binding="{Binding Odometer}"/>
+                <DataGridTextColumn Header="Informationen" Binding="{Binding MoreInfos}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

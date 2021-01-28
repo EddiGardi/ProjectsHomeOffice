@@ -1,0 +1,43 @@
+[
+  {
+    "Group": "Hinterreifen",
+    "PartName": "Bremsscheibe",
+    "ChangingDate": "2023-01-09T00:00:00",
+    "ChangedLast": "2021-01-09T00:00:00",
+    "Odometer": 123,
+    "MoreInfos": ""
+  },
+  {
+    "Group": "Vorderreifen",
+    "PartName": "Bremsbelag",
+    "ChangingDate": "2023-01-15T00:00:00",
+    "ChangedLast": "2021-01-15T00:00:00",
+    "Odometer": 115000,
+    "MoreInfos": ""
+  },
+  {
+    "Group": "Motorraum",
+    "PartName": "Öl",
+    "ChangingDate": "2023-01-15T00:00:00",
+    "ChangedLast": "2021-01-15T00:00:00",
+    "Odometer": 115700,
+    "MoreInfos": ""
+  },
+  {
+    "Group": "Motorraum",
+    "PartName": "Zündkerzen und -spulen",
+    "ChangingDate": "2022-11-13T00:00:00",
+    "ChangedLast": "2020-11-13T00:00:00",
+    "Odometer": 3212,
+    "MoreInfos": ""
+  },
+  {
+    "Group": "Motorraum",
+    "PartName": "Zündkerzen und -spulen",
+    "ChangingDate": "2020-02-15T00:00:00",
+    "ChangedLast": "2018-02-15T00:00:00",
+    "Odometer": 321,
+    "MoreInfos": ""
+  }
+
+]

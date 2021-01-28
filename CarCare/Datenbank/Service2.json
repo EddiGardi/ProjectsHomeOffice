@@ -1,0 +1,25 @@
+[
+  {
+    "Motorraum": [
+      {
+        "Luftfilter": [
+          {
+            "Eintrag": 1,
+            "Frist": "2023-01-27T22:44:29.3770193+01:00",
+            "Zuletzt": "2021-01-27T22:44:29.3770193+01:00",
+            "Kilometerstand": 12345
+          }
+        ],
+        "Öl": [ null ],
+        "Steuekette": [ null ],
+        "Kettenspanner": [ null ],
+        "Batterie": [ null ],
+        "Zündkerze": [ null ],
+        "Bremsflüssigkeit": [ null ]
+      }
+    ],
+    "Vorderrad": [ null ],
+    "Hinterrad": [ null ],
+    "Innenraum" :  [ null ]
+  }
+]
