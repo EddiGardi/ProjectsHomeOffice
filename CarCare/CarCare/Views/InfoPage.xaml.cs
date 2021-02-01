@@ -1,17 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CarCare.Views
 {
@@ -20,27 +11,27 @@ namespace CarCare.Views
     /// </summary>
     public partial class InfoPage : Page
     {
-        Service selected;
+        Class.Part selected;
 
         public InfoPage()
         {
             InitializeComponent();
-            dg_serviceList.ItemsSource = Globals.serviceList;
-            if (Globals.exists)
+            dg_serviceList.ItemsSource = Class.Globals.serviceList;
+            if (Class.Globals.exists)
             {
-                group.Text = Globals.serviceList[0].Group;
-                partname.Text = Globals.serviceList[0].PartName;
-                changein.Text = Globals.serviceList[0].ChangingDate.ToString("dd.MM.yyyy");
-                changelast.Text = Globals.serviceList[0].ChangedLast.ToString("dd.MM.yyyy");
-                odo.Text = Globals.serviceList[0].Odometer.ToString();
-                infos.Text = Globals.serviceList[0].MoreInfos;
+                group.Text = Class.Globals.tempService.Group;
+                partname.Text = Class.Globals.tempService.PartName;
+                changein.Text = Class.Globals.serviceList[0].Frist.ToString("dd.MM.yyyy");
+                changelast.Text = Class.Globals.serviceList[0].Zuletzt.ToString("dd.MM.yyyy");
+                odo.Text = Class.Globals.serviceList[0].Kilometerstand.ToString();
+                infos.Text = Class.Globals.serviceList[0].Info;
             }
             else
             {
                 bearbeiten.IsEnabled = false;
                 loeschen.IsEnabled = false;
-                group.Text = Globals.tempService.Group;
-                partname.Text = Globals.tempService.PartName;
+                group.Text = Class.Globals.tempService.Group;
+                partname.Text = Class.Globals.tempService.PartName;
                 changelast.Text = "Als MM/DD/YY eingeben";
                 odo.Text = "";
                 infos.Text = "";
@@ -51,68 +42,73 @@ namespace CarCare.Views
         {
             if (selected != null)
             {
-                Globals.serviceList.Remove(selected);
-                selected = new Service(group.Text, partname.Text, DateTime.Parse(changelast.Text), Convert.ToInt32(odo.Text), infos.Text);
-                Globals.serviceList.Add(selected);
+                Class.Globals.serviceList.Remove(selected);
+                selected = new Class.Part (Class.Globals.serviceList.Count + 1,  DateTime.Parse(changelast.Text), Convert.ToInt32(odo.Text), infos.Text );
+                Class.Globals.serviceList.Add(selected);
             }
         }
 
         private void Hinzufuegen_Click(object sender, RoutedEventArgs e)
         {
-            var service = new Service(group.Text, partname.Text, DateTime.Parse(changelast.Text), Convert.ToInt32(odo.Text), infos.Text);
+            Class.Part service = new Class.Part (0, DateTime.Parse(changelast.Text), Convert.ToInt32(odo.Text), infos.Text );
 
-            if (Globals.serviceList is null)
+            //Class.Methods.NewEntry(group.Text, partname.Text, DateTime.Parse(changelast.Text), Convert.ToInt32(odo.Text), infos.Text);
+
+            if (Class.Globals.serviceList.Count == 0)
             {
-                Globals.serviceList = new System.Collections.ObjectModel.ObservableCollection<Service> { service };
-                dg_serviceList.ItemsSource = Globals.serviceList;
+                Class.Globals.serviceList = new System.Collections.ObjectModel.ObservableCollection<Class.Part> { service };
+                dg_serviceList.ItemsSource = Class.Globals.serviceList;
                 bearbeiten.IsEnabled = true;
                 loeschen.IsEnabled = true;
             }
-            else Globals.serviceList.Add(service);
+            else Class.Globals.serviceList.Add(service);
         }
 
         private void Loeschen_Click(object sender, RoutedEventArgs e)
         {
             if (selected != null)
             {
-                Globals.serviceList.Remove(selected);
+                if (Class.Globals.serviceList.Count == 1)
+                {
+                    bearbeiten.IsEnabled = false;
+                    loeschen.IsEnabled = false;
+                    dg_serviceList.ItemsSource = null;
+                    Class.Globals.serviceList = new System.Collections.ObjectModel.ObservableCollection<Class.Part>();
+                }
+                else Class.Globals.serviceList.Remove(selected);
                 selected = null;
-            }
-            if (Globals.serviceList.Count == 0)
-            {
-                bearbeiten.IsEnabled = false;
-                loeschen.IsEnabled = false;
-                dg_serviceList.ItemsSource = null;
-                Globals.serviceList = null;
             }
         }
 
         private void Schließen_Click(object sender, RoutedEventArgs e)
         {
-            if (Globals.serviceList != null)
+            List<Class.Part> sortedList = Class.Globals.serviceList.OrderByDescending(s => s.Zuletzt).ToList();
+            if (Class.Globals.serviceList.Count != 0)
             {
-                List<Service> sortedList = Globals.serviceList.OrderByDescending(s => s.ChangingDate).ToList();
-                Globals.service.AddRange(sortedList);
+                int num = 1;
+                foreach (Class.Part item in sortedList)
+                {
+                    item.Eintrag = num++;
+                }
             }
-            Globals.serviceList = null;
-            if (Globals.uebergabe == "Hinterreifen") this.NavigationService.Navigate(new Hinterreifen());
-            else if (Globals.uebergabe == "Vorderreifen") this.NavigationService.Navigate(new Vorderreifen());
-            else if (Globals.uebergabe == "Innenraum") this.NavigationService.Navigate(new Innenraum());
+            Class.Methods.SortedClose(group.Text, partname.Text, sortedList);
+            Class.Globals.serviceList = null;
+            if (Class.Globals.uebergabe == "Hinterrad") this.NavigationService.Navigate(new Hinterreifen());
+            else if (Class.Globals.uebergabe == "Vorderrad") this.NavigationService.Navigate(new Vorderreifen());
+            else if (Class.Globals.uebergabe == "Innenraum") this.NavigationService.Navigate(new Innenraum());
             else this.NavigationService.Navigate(new Motorraum());
         }
 
         private void Dg_serviceList_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
         {
-            selected = (Service)dg_serviceList.SelectedItem;
+            selected = (Class.Part)dg_serviceList.SelectedItem;
             if (selected != null)
             {
-                group.Text = selected.Group;
-                partname.Text = selected.PartName;
-                changelast.Text = selected.ChangedLast.ToString();
-                changein.Text = selected.ChangingDate.ToString("dd.MM.yyyy");
-                odo.Text = selected.Odometer.ToString();
-                infos.Text = selected.MoreInfos;
-                InitializeComponent();
+                changelast.Text = selected.Zuletzt.ToString();
+                changein.Text = selected.Frist.ToString("dd.MM.yyyy");
+                odo.Text = selected.Kilometerstand.ToString();
+                infos.Text = selected.Info;
+               // InitializeComponent();
             }
         }
     }

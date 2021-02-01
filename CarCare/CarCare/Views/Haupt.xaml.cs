@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CarCare.Views
 {
@@ -23,34 +14,32 @@ namespace CarCare.Views
         public Haupt()
         {
             InitializeComponent();
-            // &&
-            if (Globals.service.Find(s => s.Group == "Motorraum") != null) 
-            {
-                /*if (Globals.service.FirstOrDefault(service => (service.Group == "Motorraum") && (service.PartName == "Zündkerzen und -spulen")).ChangingDate <= DateTime.Now 
-                    || Globals.service.FirstOrDefault(service => (service.Group == "Motorraum") && (service.PartName == "Öl")).ChangingDate <= DateTime.Now
-                    || Globals.service.FirstOrDefault(service => (service.Group == "Motorraum") && (service.PartName == "Luftfilter")).ChangingDate <= DateTime.Now
-                    || Globals.service.FirstOrDefault(service => (service.Group == "Motorraum") && (service.PartName == "Steuerkette")).ChangingDate <= DateTime.Now
-                    || Globals.service.FirstOrDefault(service => (service.Group == "Motorraum") && (service.PartName == "Kettenspanner")).ChangingDate <= DateTime.Now
-                    || Globals.service.FirstOrDefault(service => (service.Group == "Motorraum") && (service.PartName == "Batterie")).ChangingDate <= DateTime.Now
-                    || Globals.service.FirstOrDefault(service => (service.Group == "Motorraum") && (service.PartName == "Bremsflüssigkeit")).ChangingDate <= DateTime.Now)
-                    // Null Überprüfung
-                    */
-                {
-                    engineBayButton.Background = Brushes.Red;
-                }
 
-            }
-            if (Globals.service.Find(service => (service.Group == "Innenraum") && (service.ChangingDate <= DateTime.Now)) != null)
+            if ((Class.Globals.serviceNew.Motorraum.Luftfilter.Count != 0 && Class.Globals.serviceNew.Motorraum.Luftfilter[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Motorraum.Öl.Count != 0 && Class.Globals.serviceNew.Motorraum.Öl[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Motorraum.Steuerkette.Count != 0 && Class.Globals.serviceNew.Motorraum.Steuerkette[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Motorraum.Kettenspanner.Count != 0 && Class.Globals.serviceNew.Motorraum.Kettenspanner[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Motorraum.Batterie.Count != 0 && Class.Globals.serviceNew.Motorraum.Batterie[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Motorraum.Zündkerze.Count != 0 && Class.Globals.serviceNew.Motorraum.Zündkerze[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Motorraum.Bremsflüssigkeit.Count != 0 && Class.Globals.serviceNew.Motorraum.Bremsflüssigkeit[0].Frist <= DateTime.Now))
             {
-                interiorButton.Background = Brushes.Red;
+                engineBayButton.Background = Brushes.Red;
             }
-            if (Globals.service.Find(service => (service.Group == "Vorderreifen") && (service.ChangingDate <= DateTime.Now)) != null)
+            if ((Class.Globals.serviceNew.Vorderrad.Reifen.Count != 0 && Class.Globals.serviceNew.Vorderrad.Reifen[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Vorderrad.Bremsscheibe.Count != 0 && Class.Globals.serviceNew.Vorderrad.Bremsscheibe[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Vorderrad.Bremsbelag.Count != 0 && Class.Globals.serviceNew.Vorderrad.Bremsbelag[0].Frist <= DateTime.Now))
             {
                 frontWheelButton.Background = Brushes.Red;
             }
-            if (Globals.service.Find(service => (service.Group == "Hinterreifen") && (service.ChangingDate <= DateTime.Now)) != null)
+            if ((Class.Globals.serviceNew.Hinterrad.Reifen.Count != 0 && Class.Globals.serviceNew.Hinterrad.Reifen[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Hinterrad.Bremsscheibe.Count != 0 && Class.Globals.serviceNew.Hinterrad.Bremsscheibe[0].Frist <= DateTime.Now) ||
+                (Class.Globals.serviceNew.Hinterrad.Bremsbelag.Count != 0 && Class.Globals.serviceNew.Hinterrad.Bremsbelag[0].Frist <= DateTime.Now))
             {
                 rearWheelButton.Background = Brushes.Red;
+            }
+            if (Class.Globals.serviceNew.Innenraum.Innenraumfilter.Count != 0 && Class.Globals.serviceNew.Innenraum.Innenraumfilter[0].Frist <= DateTime.Now)
+            {
+                interiorButton.Background = Brushes.Red;
             }
         }
 

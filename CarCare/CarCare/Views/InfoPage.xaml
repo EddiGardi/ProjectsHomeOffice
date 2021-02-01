@@ -77,10 +77,10 @@
         </StackPanel>
         <DataGrid Grid.Column="1" AutoGenerateColumns="false" Name="dg_serviceList" SelectedCellsChanged="Dg_serviceList_SelectedCellsChanged">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Tauschen am" Binding="{Binding ChangingDate, StringFormat={}{0:dd/MM/yyyy}}"/>
-                <DataGridTextColumn Header="Zuletzt getauscht" Binding="{Binding ChangedLast, StringFormat={}{0:dd/MM/yyyy}}"/>
-                <DataGridTextColumn Header="Kilometerstand" Binding="{Binding Odometer}"/>
-                <DataGridTextColumn Header="Informationen" Binding="{Binding MoreInfos}"/>
+                <DataGridTextColumn Header="Tauschen am" Binding="{Binding Frist, StringFormat={}{0:dd/MM/yyyy}}"/>
+                <DataGridTextColumn Header="Zuletzt getauscht" Binding="{Binding Zuletzt, StringFormat={}{0:dd/MM/yyyy}}"/>
+                <DataGridTextColumn Header="Kilometerstand" Binding="{Binding Kilometerstand}"/>
+                <DataGridTextColumn Header="Informationen" Binding="{Binding Info}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

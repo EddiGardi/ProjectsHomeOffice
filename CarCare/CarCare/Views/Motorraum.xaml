@@ -41,7 +41,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Name="sparkPlugsBtn" Click="SparkPlugs_Click" Content="Zündkerzen&#10;und -spulen" Height="50" Margin="302,144,328,202">
+        <Button Name="sparkPlugsBtn" Click="SparkPlugs_Click" Content="Zündkerzen" Height="30" Margin="302,144,328,202">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

@@ -58,71 +58,56 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Globals.cs" />
-    <Compile Include="Hinterreifen.xaml.cs">
-      <DependentUpon>Hinterreifen.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="InfoPage.xaml.cs">
-      <DependentUpon>InfoPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Innenraum.xaml.cs">
-      <DependentUpon>Innenraum.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Service.cs" />
-    <Compile Include="Vorderreifen.xaml.cs">
-      <DependentUpon>Vorderreifen.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Überblick.xaml.cs">
-      <DependentUpon>Überblick.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Haupt.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Hinterreifen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="InfoPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Innenraum.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Compile Include="Class\Service.cs" />
+    <Compile Include="Class\Methods.cs" />
+    <Compile Include="Class\Globals.cs" />
+    <Compile Include="MainWindow.xaml.cs" />
+    <Compile Include="Class\ServiceFlattened.cs" />
+    <Compile Include="Views\Haupt.xaml.cs" />
+    <Compile Include="Views\Hinterreifen.xaml.cs" />
+    <Compile Include="Views\InfoPage.xaml.cs" />
+    <Compile Include="Views\Innenraum.xaml.cs" />
+    <Compile Include="Views\Motorraum.xaml.cs" />
+    <Compile Include="Views\Vorderreifen.xaml.cs" />
+    <Compile Include="Views\Überblick.xaml.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Haupt.xaml.cs">
-      <DependentUpon>Haupt.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="Motorraum.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="Vorderreifen.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\Haupt.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="Überblick.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\Hinterreifen.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\InfoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Innenraum.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Motorraum.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Vorderreifen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Überblick.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Motorraum.xaml.cs">
-      <DependentUpon>Motorraum.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -145,15 +130,23 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Resources\Data\Service.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Hinterreifen\" />
-    <Folder Include="Innenraum\" />
-    <Folder Include="Motorraum\" />
-    <Folder Include="Vorderreifen\" />
+    <Resource Include="Resources\Images\Arrow_left.png" />
+    <Resource Include="Resources\Images\Arrow_right.png" />
+    <Resource Include="Resources\Images\Back.png" />
+    <Resource Include="Resources\Images\Floppy_1.png" />
+    <Resource Include="Resources\Images\interior.jpg" />
+    <Resource Include="Resources\Images\minicoopersr56_side.jpg" />
+    <Resource Include="Resources\Images\minicoopersr56_side_Backwheel.jpg" />
+    <Resource Include="Resources\Images\minicoopersr56_side_frontwheel.jpg" />
+    <Resource Include="Resources\Images\Motorraum_timed.jpg" />
+    <Resource Include="Resources\Images\Test.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

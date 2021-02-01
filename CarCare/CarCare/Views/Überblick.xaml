@@ -8,14 +8,36 @@
       d:DesignHeight="400" d:DesignWidth="700"
       Title="Überblick">
 
-    <DataGrid Name="dg_services" AutoGenerateColumns="false" ColumnWidth="*">
-        <DataGrid.Columns>
-            <DataGridTextColumn Header="Teilegruppe" Binding="{Binding Group}"/>
-            <DataGridTextColumn Header="Serviceelement" Binding="{Binding PartName}"/>
-            <DataGridTextColumn Header="Tauschen am" Binding="{Binding ChangingDate, StringFormat={}{0:dd/MM/yyyy}}"/>
-            <DataGridTextColumn Header="Zuletzt getauscht" Binding="{Binding ChangedLast, StringFormat={}{0:dd/MM/yyyy}}"/>
-            <DataGridTextColumn Header="Kilometerstand" Binding="{Binding Odometer}"/>
-            <DataGridTextColumn Header="Informationen" Binding="{Binding MoreInfos}"/>
-        </DataGrid.Columns>
-    </DataGrid>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" >
+            <Label Content="Aktuell"/>
+            <DataGrid Name="dg_servicesA" AutoGenerateColumns="false" ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Teilegruppe" Binding="{Binding Group}"/>
+                    <DataGridTextColumn Header="Serviceelement" Binding="{Binding PartName}"/>
+                    <DataGridTextColumn Header="Tauschen am" Binding="{Binding ChangingDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                    <DataGridTextColumn Header="Zuletzt getauscht" Binding="{Binding ChangedLast, StringFormat={}{0:dd/MM/yyyy}}"/>
+                    <DataGridTextColumn Header="Kilometerstand" Binding="{Binding Odometer}"/>
+                    <DataGridTextColumn Header="Informationen" Binding="{Binding MoreInfos}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Label Content="Alt"/>
+            <DataGrid Name="dg_servicesO" AutoGenerateColumns="false" ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Teilegruppe" Binding="{Binding Group}"/>
+                    <DataGridTextColumn Header="Serviceelement" Binding="{Binding PartName}"/>
+                    <DataGridTextColumn Header="Tauschen am" Binding="{Binding ChangingDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                    <DataGridTextColumn Header="Zuletzt getauscht" Binding="{Binding ChangedLast, StringFormat={}{0:dd/MM/yyyy}}"/>
+                    <DataGridTextColumn Header="Kilometerstand" Binding="{Binding Odometer}"/>
+                    <DataGridTextColumn Header="Informationen" Binding="{Binding MoreInfos}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
 </Page>

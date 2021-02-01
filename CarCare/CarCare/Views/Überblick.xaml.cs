@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Collections.Generic;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CarCare.Views
 {
@@ -23,7 +11,14 @@ namespace CarCare.Views
         public Überblick()
         {
             InitializeComponent();
-            dg_services.ItemsSource = Globals.serviceNew;
+
+            List<Class.ServiceFlattened> dg_serviceActual = new List<Class.ServiceFlattened>();
+            List<Class.ServiceFlattened> dg_serviceOld = new List<Class.ServiceFlattened>();
+
+            Class.Methods.FlattenedList(dg_serviceActual,dg_serviceOld);
+
+            dg_servicesA.ItemsSource = dg_serviceActual;
+            dg_servicesO.ItemsSource = dg_serviceOld;
         }
     }
 }
