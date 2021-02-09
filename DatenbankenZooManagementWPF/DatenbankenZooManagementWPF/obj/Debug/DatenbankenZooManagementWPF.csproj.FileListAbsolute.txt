@@ -1,0 +1,15 @@
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\bin\Debug\DatenbankenZooManagementWPF.exe.config
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\bin\Debug\DatenbankenZooManagementWPF.exe
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\bin\Debug\DatenbankenZooManagementWPF.pdb
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\App.g.cs
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF_MarkupCompile.cache
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF_MarkupCompile.lref
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\MainWindow.baml
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF.g.resources
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF.Properties.Resources.resources
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF.csproj.GenerateResource.cache
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF.exe
+C:\Users\Edgard Frank\source\repos\DatenbankenZooManagementWPF\DatenbankenZooManagementWPF\obj\Debug\DatenbankenZooManagementWPF.pdb

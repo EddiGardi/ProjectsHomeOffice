@@ -1,0 +1,7 @@
+C:\Users\Edgard Frank\source\repos\StudentManagerLinq\StudentManagerLinq\bin\Debug\StudentManagerLinq.exe.config
+C:\Users\Edgard Frank\source\repos\StudentManagerLinq\StudentManagerLinq\bin\Debug\StudentManagerLinq.exe
+C:\Users\Edgard Frank\source\repos\StudentManagerLinq\StudentManagerLinq\bin\Debug\StudentManagerLinq.pdb
+C:\Users\Edgard Frank\source\repos\StudentManagerLinq\StudentManagerLinq\obj\Debug\StudentManagerLinq.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\StudentManagerLinq\StudentManagerLinq\obj\Debug\StudentManagerLinq.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\StudentManagerLinq\StudentManagerLinq\obj\Debug\StudentManagerLinq.exe
+C:\Users\Edgard Frank\source\repos\StudentManagerLinq\StudentManagerLinq\obj\Debug\StudentManagerLinq.pdb

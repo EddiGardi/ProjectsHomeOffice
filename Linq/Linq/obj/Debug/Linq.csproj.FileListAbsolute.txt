@@ -1,0 +1,7 @@
+C:\Users\Edgard Frank\source\repos\Linq\Linq\bin\Debug\Linq.exe.config
+C:\Users\Edgard Frank\source\repos\Linq\Linq\bin\Debug\Linq.exe
+C:\Users\Edgard Frank\source\repos\Linq\Linq\bin\Debug\Linq.pdb
+C:\Users\Edgard Frank\source\repos\Linq\Linq\obj\Debug\Linq.csprojAssemblyReference.cache
+C:\Users\Edgard Frank\source\repos\Linq\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+C:\Users\Edgard Frank\source\repos\Linq\Linq\obj\Debug\Linq.exe
+C:\Users\Edgard Frank\source\repos\Linq\Linq\obj\Debug\Linq.pdb
